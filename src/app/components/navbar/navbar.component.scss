@@ -1,0 +1,28 @@
+.btn-login-on {
+    color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background: none;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    border-radius: 24px;
+
+}
+
+.btn-login-on:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border: 2px solid #488AC7;
+}
+  
+  .btn-login-off {
+    color: #fff;
+    border-color: #dc3545;
+    background-color: #dc3545;
+    font-family: Verdana;
+  }
+  
+  .btn-login-off:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }

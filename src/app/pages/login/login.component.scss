@@ -1,0 +1,229 @@
+h6 {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 0.75em !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.box {
+    background: #19191a;
+    text-align: center;
+    transition: 0.25s;
+    border-radius: 20px;
+}
+
+.bg-status-on{
+    background: #19192a;
+    border: 2px solid #488AC7;
+}
+
+
+
+.bg-status-off{
+    background: #19192a;
+    border: 2px solid #B03A2E;
+    color: #B03A2E !important;
+}
+
+.p-status-off{
+    color: #B03A2E !important;
+}
+.input[type="email"],
+.input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.input[type="email"]:focus,
+.input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.input[type="submit"]:hover {
+    background: #2ecc71
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+a.icoHotmail{
+    font-size: 6px;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icoHotmail:hover {
+    background-color: #488AC7;
+}
+
+.social-network a.icoYahoo:hover {
+    background-color: #8c41ae
+}
+
+.social-network a.icoApple:hover {
+    background-color: #959495
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icoYahoo:hover i,
+.social-network a.icoHotmail:hover i,
+.social-network a.icoApple:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff;
+}
+
+.social-network a.icoYahoo:hover h6{
+    color: #8c41ae;
+}
+
+.social-network a.icoGoogle:hover h6{
+    color: red;
+}
+
+.social-network a.icoHotmail:hover h6{
+    color: #488ac7;
+}
+
+.social-network a.icoApple:hover h6{
+    color: #959495;
+}
+
+.social-network a.icoYahoo, a.icoGoogle, a.icoHotmail, a.icoApple h6{
+    color: #fff;
+}
+
+.social-network a.icoApple:hover span.g-red{
+    color: red !important;
+}
+
+.social-network a.icoApple:hover span.o-green{
+    color: green !important;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #fff;
+}
+
+.social-circle li a, .social-auth-links a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+
+.login-box,
+.register-box {
+  width: 360px;
+  margin: 4% auto;
+}
+
+@media (max-width: 768px) {
+  .login-box,
+  .register-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+.login-box-body .form-control-feedback,
+.register-box-body .form-control-feedback {
+  color: #777;
+}
+
+.login-box-msg,
+.register-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.login-logo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 300;
+  background-color: #19192a;
+  border-radius: 20px;
+  color: #444 !important;
+}
+
+
+
+.login-box p{
+    color: #488AC7;
+}
+
+.div-pad{
+    padding-bottom: 10px;
+}

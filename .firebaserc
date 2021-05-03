@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "oauth2-f626c": {
+      "hosting": {
+        "app-admin": [
+          "oauth2-f626c"
+        ]
+      }
+    }
+  }
+}

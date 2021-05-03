@@ -1,0 +1,29 @@
+<div class="col-md-6 espacio">
+    <!-- USERS LIST -->
+    <div class="box box-success">
+      <div class="box-header with-border">
+        <h3 class="box-title label-success">Clientes Conectados</h3>
+
+        <div class="box-tools pull-right">
+          
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.box-header -->
+      <div class="box-body no-padding">
+        <ul class="users-list clearfix">
+          <li *ngFor="let user of listaUsuarios" class="card card-small" (click)="selection.value = user" tabindex="0">
+            <img class="user-img" src={{user.photoUrl}} alt="User Image">
+            <a class="users-list-name" href="#">{{user.fullName}}</a>
+            <span class="users-list-date">{{user.email}}</span>
+          </li>
+        </ul>
+        <!-- /.users-list -->
+      </div>
+      <!-- /.box-body -->
+
+    </div>
+    <!--/.box -->
+  </div>
