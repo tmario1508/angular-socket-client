@@ -41,7 +41,7 @@ export class UsersComponent implements OnInit {
           photoUrl: user.photoURL,
           //apiKey: environment.API_KEY
         });
-        console.log('Usuario: ', user.email);
+        //console.log('Usuario: ', user.email);
       })
       .catch((error) => {
         return {
