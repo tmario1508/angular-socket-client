@@ -1,8 +1,8 @@
 FROM node AS builder
 
-RUN mkdir -p /usr/src/app-angular
-WORKDIR /usr/src/app-angular
-COPY . /usr/src/app-angular
+RUN mkdir -p /src/app-admin
+WORKDIR /src/app-admin
+COPY . /src/app-admin
 
 RUN npm install
 RUN $(npm bin)/ng build --prod --aot

@@ -11,5 +11,5 @@ export const environment = {
     measurementId: "G-72HQR6KHFC"
   },
   API_KEY: '60929ba32c07e93e166f56be',
-  URL_FOTO: 'src/assets/'
+  //URL_FOTO: 'src/assets/'
 };
