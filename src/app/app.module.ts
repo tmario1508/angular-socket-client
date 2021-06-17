@@ -17,6 +17,7 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { UsersComponent } from './pages/users/users.component';
 
 const config: SocketIoConfig = { url: 'http://localhost:3000', options: {} };
+
 const FIREBASE_SETTINGS = {
   apiKey: "AIzaSyDrzTcoxAf5WhexxzSVnN0QyNA1oIvGGf0",
   authDomain: "oauth2-f626c.firebaseapp.com",

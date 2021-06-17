@@ -2,7 +2,18 @@ import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import { environment } from 'src/environments/environment';
+//import { environment } from 'src/environments/environment';
+
+
+const FIREBASE_SETTINGS = {
+  apiKey: "AIzaSyDrzTcoxAf5WhexxzSVnN0QyNA1oIvGGf0",
+  authDomain: "oauth2-f626c.firebaseapp.com",
+  projectId: "oauth2-f626c",
+  storageBucket: "oauth2-f626c.appspot.com",
+  messagingSenderId: "305293313491",
+  appId: "1:305293313491:web:40b816aef00c945fcd5b26",
+  measurementId: "G-72HQR6KHFC"
+}
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +21,7 @@ import { environment } from 'src/environments/environment';
 export class AuthService {
 
   constructor(private fireAuth: AngularFireAuth) {
-    firebase.initializeApp(environment.FIREBASE_SETTINGS);
+    firebase.initializeApp(FIREBASE_SETTINGS);
     firebase.auth().onAuthStateChanged((user: any) =>{
       console.log('Evento onAuthStateChanged: ', user);
     });

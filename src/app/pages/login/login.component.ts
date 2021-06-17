@@ -4,7 +4,7 @@ import { AuthService } from '../../services/auth.service';
 import { SocketioService } from '../../services/socketio.service';
 import firebase from 'firebase/app';
 import { Router } from '@angular/router';
-import { environment } from 'src/environments/environment';
+//import { environment } from 'src/environments/environment';
 
 
 @Component({
@@ -12,6 +12,7 @@ import { environment } from 'src/environments/environment';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
+
 
 export class LoginComponent implements OnInit {
  
@@ -42,7 +43,7 @@ export class LoginComponent implements OnInit {
           fullName: user.displayName,
           email: user.email,
           photoUrl: user.photoURL,
-          apiKey: environment.API_KEY
+          apiKey: '60929ba32c07e93e166f56be'
         });
         console.log('Usuario: ', user.email);
         this.router.navigate(['/users'])
