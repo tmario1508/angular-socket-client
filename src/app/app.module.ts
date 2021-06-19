@@ -16,7 +16,8 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
 //import { environment } from 'src/environments/environment';
 import { UsersComponent } from './pages/users/users.component';
 
-const config: SocketIoConfig = { url: 'http://192.168.48.133:3000', options: {} };
+const config: SocketIoConfig = { url: 'http://143.198.172.188:3000', options: {} };
+//const config: SocketIoConfig = { url: 'http://192.168.48.133:3000', options: {} };
 //const config: SocketIoConfig = { url: 'http://localhost:3000', options: {} };
 
 const FIREBASE_SETTINGS = {
